@@ -11,7 +11,9 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "cross-env NODE_ENV=development webpack serve"
+    "start": "cross-env NODE_ENV=development webpack serve",
+    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,md,sass,scss,less}\""
   },
   "author": "Michael Kalatsey <seakingtourist@gmail.com>",
   "license": "ISC",
