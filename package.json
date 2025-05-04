@@ -18,14 +18,14 @@
   "author": "Michael Kalatsey <seakingtourist@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.9",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.6.0",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
     "clean-webpack-plugin": "^4.0.0",
